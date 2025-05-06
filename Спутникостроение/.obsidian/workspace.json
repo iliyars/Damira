@@ -1,0 +1,209 @@
+{
+  "main": {
+    "id": "2bf52687ba4e6fe9",
+    "type": "split",
+    "children": [
+      {
+        "id": "198c598ce3da81ad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "36c571ea44e324a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CubeSat/Модель реактивного маховика.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Модель реактивного маховика"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "47a4b2c61d51e975",
+    "type": "split",
+    "children": [
+      {
+        "id": "b28d00e2ded913d2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "35b18b64c4c2e1c2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "0d884f22fa5c05f7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "гю",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "7cedfa7cc25c0c59",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8defc31335a89614",
+    "type": "split",
+    "children": [
+      {
+        "id": "4f5c34351b0ec0a3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e023f6ed845cdc23",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "fd4470a7dbde0f5a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Схемотехника/Схемы элкетрические/Соединители..md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Соединители."
+            }
+          },
+          {
+            "id": "cd6d53b9d1119d91",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e8d4a92158973a7a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Схемотехника/Схемы элкетрические/Соединители..md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Соединители."
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "gpt3-notes:GPT-3 Notes": false
+    }
+  },
+  "active": "36c571ea44e324a5",
+  "lastOpenFiles": [
+    "Математика/Кватернионы.md",
+    "Математика/Теорема о переносе производной.md",
+    "CubeSat/Модель реактивного маховика.md",
+    "CubeSat/Используемые переменные.md",
+    "CubeSat/Динамика частиц.md",
+    "CubeSat/Аэрокосмические уравнения движения.md",
+    "CubeSat/Аэрокосмическая механика и системы управления для CubeSat, квадрокоптеров и летательных аппаратов.md",
+    "Математика/Вектор на плоскости. Контравариантные, ковариантные координаты и связи между ними.md",
+    "Математика/Угол между векторами.md",
+    "Математика/Формула Эйлера.md",
+    "Матрицы/Кососимметрическая матрица.md",
+    "CubeSat/Измерения датчиков.md",
+    "Linear_Regression.png",
+    "Механика/Принцип Даламбера.md",
+    "Фильтр калмана/Untitled.md",
+    "Фильтр калмана",
+    "Roadmap.md",
+    "Untitled.canvas",
+    "Untitled 2.canvas",
+    "Untitled 1.canvas",
+    "Спутникостроение/CubeSat/Используемые переменные.md",
+    "Спутникостроение/CubeSat/Аэрокосмические уравнения движения.md",
+    "Спутникостроение/Математика/Вектор на плоскости. Контравариантные, ковариантные координаты и связи между ними.md",
+    "Спутникостроение/Математика/Теорема о переносе производной.md",
+    "Спутникостроение/Математика/Угол между векторами.md",
+    "Спутникостроение/CubeSat/Модель реактивного маховика.md",
+    "Спутникостроение/CubeSat/Динамика частиц.md",
+    "Спутникостроение/Матрицы/Кососимметрическая матрица.md",
+    "Спутникостроение/Математика/Кватернионы.md",
+    "Спутникостроение/CubeSat/Аэрокосмическая механика и системы управления для CubeSat, квадрокоптеров и летательных аппаратов.md",
+    "Спутникостроение/Математика/Формула Эйлера.md",
+    "Pasted image 20250425112035.png",
+    "Спутникостроение/Механика",
+    "Спутникостроение/Матрицы",
+    "Спутникостроение/Математика",
+    "Спутникостроение/CubeSat",
+    "Спутникостроение/Статьи/Walker2024b.pdf",
+    "Спутникостроение/Статьи/Walker2024b.pdf.crdownload",
+    "Latex/Kottvits_Sh_LaTeX_rukovodstvo_dlya_nachinayuschikh.pdf"
+  ]
+}

@@ -1,0 +1,77 @@
+%\document class[]{aiaa-tc} %load in aiaa class template file
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{mathrsfs}
+\usepackage{enumitem}
+\usepackage{mathabx}
+\usepackage{multicol}
+\usepackage{hyperref}
+\usepackage{natbib} %REMOVE THIS IF YOU DON'T WANT BRACKETS ON YOUR PAPER
+\usepackage{float}
+\usepackage{color,soul}
+\usepackage[font=normalsize,labelfont=bf]{caption}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+\newcommand{\sref}[1]{$^{[\ref{#1}]}$}
+\newcommand{\dref}[2]{$^{[\ref{#1}-\ref{#2}]}$}
+
+ % Define commands to assure consistent treatment throughout document
+\newcommand{\eqnref}[1]{(\ref{#1})}
+\newcommand{\class}[1]{\texttt{#1}}
+\newcommand{\package}[1]{\texttt{#1}}
+\newcommand{\file}[1]{\texttt{#1}}
+\newcommand{\BibTeX}{\textsc{Bib}\TeX}
+\def\beq{\begin{equation}}
+\def\eeq{\end{equation}}
+\def\beqn{\begin{matrix}}
+\def\eeqn{\end{matrix}}
+
+\hypersetup{%
+  colorlinks=true,% hyperlinks will be black
+  linkcolor=blue,
+  linkbordercolor=red,% hyperlink borders will be red
+   %pdfborderstyle={/S/U/W 1}% border style will be underline of width 1pt
+}
+
+\makeatletter
+\Hy@AtBeginDocument{%
+  \def\@pdfborder{0 0 1}% Overrides border definition set with colorlinks=true
+  \def\@pdfborderstyle{/S/U/W 1}% Overrides border style set with colorlinks=true
+                                % Hyperlink border style will be underline of width 1pt
+}
+\makeatother
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{title}
+\input{foreword}
+\input{introduction}
+\input{nomenclature}
+\input{particle_dynamics}
+\input{rigid_bodies}
+\input{eoms}
+\input{external_models}
+\input{forces_moments}
+\input{orbital_elements}
+\input{lti}
+\input{numerical_integration}
+\input{state_estimation}
+\input{controls}
+\input{sys_eng}
+\input{cubesats}
+\input{aircraft_design}
+\input{aircraft_design_equations}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\bibliographystyle{unsrt}
+\bibliography{../papers.bib}
+
+\end{document}

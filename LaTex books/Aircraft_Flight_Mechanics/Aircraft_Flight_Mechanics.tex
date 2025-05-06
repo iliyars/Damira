@@ -1,0 +1,79 @@
+%\documentclass[11pt,a4paper,twoside,openright]{book}
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{geometry}
+\usepackage{fullpage}
+\usepackage[usenames,dvipsnames]{color}
+%\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{datetime}
+\usepackage{natbib} %REMOVE THIS IF YOU DON'T WANT BRACKETS ON YOUR PAPER
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{wrapfig}		%					allows wrapping text around figures
+\usepackage{multicol}
+%\usepackage{cite}
+\usepackage[font=normalsize,labelfont=bf]{caption}
+\usepackage{titlesec}
+\titleformat{\section}[block]{\large\bfseries}{\thesection}{1em}{}
+\usepackage{framed}
+\usepackage{setspace}
+\def\beq{\begin{equation}}
+\def\eeq{\end{equation}}
+\def\beqn{\begin{matrix}}
+\def\eeqn{\end{matrix}}
+
+\setlength{\marginparwidth}{0pt}
+
+% Define commands to assure consistent treatment throughout document
+\newcommand{\eqnref}[1]{(\ref{#1})}
+ \newcommand{\class}[1]{\texttt{#1}}
+ \newcommand{\package}[1]{\texttt{#1}}
+ \newcommand{\file}[1]{\texttt{#1}}
+ \newcommand{\BibTeX}{\textsc{Bib}\TeX}
+\renewcommand{\thesection}{\Roman{section}.}
+\renewcommand{\thesubsection}{\arabic{subsection}.}
+\renewcommand{\thesubsubsection}{\alph{subsubsection}.}
+
+\begin{document}
+
+\begin{center}
+\begin{LARGE}{\bf Aircraft Flight Mechanics}\end{LARGE}\\
+\large
+\vspace{22 mm}
+\begin{singlespace}
+   A Brief Textbook Presented to the \\ 
+   Student Body of the University of South Alabama \\
+\vspace{22 mm}
+   by\\
+\vspace{22 mm}
+  Carlos Montalvo \\
+\vspace{22 mm}
+\end{singlespace}
+{\itshape University of South Alabama}\\
+{\bf Copyright $\copyright$ Carlos Jos\'{e} Montalvo}
+\\ Last Update: \today
+\end{center}
+
+\newpage
+
+\noindent This textbook has been deprecated and moved into Aerospace
+Mechanics and Controls
+\url{https://github.com/cmontalvo251/LaTeX/tree/master/Aerospace_Mechanics}
+
+\section*{Manuscript Changes}
+
+\begin{enumerate}[itemsep=-5pt]
+\item December 10th, 2020 - Moved manuscript to public Github repo
+\item December 30th, 2020 - Added datetime to title page. Added
+  section headers to RC aircraft design. Wrote text all the way
+  through the airfoil selection. Added a references section.
+\item December 31st, 2020 - Finished RC aircraft section.
+\item December 21st, 2021 - Deprecated this paper by moving all
+  content to Aerospace Mechanics paper
+\end{enumerate}
+
+\end{document}

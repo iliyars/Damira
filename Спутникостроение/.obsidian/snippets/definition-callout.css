@@ -1,0 +1,20 @@
+callout[data-callout="definition"] {
+    border-left: 4px solid #347fc4;
+    background-color: #eef6fd;
+    padding: 0.8em 1em;
+    border-radius: 8px;
+}
+
+.callout[data-callout="definition"] .callout-title {
+    font-weight: bold;
+    font-size: 1em;
+    color: #1e5fa8;
+}
+
+.callout[data-callout="definition"] .callout-icon {
+    color: #1e5fa8;
+}
+
+.callout[data-callout="definition"] .callout-content {
+    font-size: 0.95em;
+}
