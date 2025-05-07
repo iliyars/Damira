@@ -30,10 +30,10 @@ q0123dot = 0.5*PQRMAT*q0123;
 
 %%%Gravity Model
 %planet
-r = state(1:3); %% r = [x;y;z]
-rho = norm(r);
-rhat = r/rho;
-Fgrav = -(mu*m/rho^2)*rhat;
+r = state(1:3); %% r = [x;y;z] положение спутника в инерциальной СК
+rho = norm(r); % Расстояние от центра планеты до спутника
+rhat = r/rho; % Единичный вектор направления от ценра Земли к спутнику
+Fgrav = -(mu*m/rho^2)*rhat; % Гравитационная сила
 
 %%%Call the magnetic field model
 if t >= lastMagUpdate
